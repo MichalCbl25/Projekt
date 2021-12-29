@@ -193,7 +193,7 @@ footer {
   }
   nav .mainMenu {
     display: flex;
-    top: -500vh;
+    top: calc(-150vh - 100%);
     /*top: calc(-100vh - 100%);*/
   }
   nav .openMenu {

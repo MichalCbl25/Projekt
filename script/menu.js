@@ -11,7 +11,7 @@ function show() {
 }
 function close() {
   // mainMenu.style.top = 'calc(-100vh - 100%)'; //100% na mobilnych jest problem wiec device height
-  mainMenu.style.top = '-500vh';
+  mainMenu.style.top = 'calc(-150vh - 100%)';
 }
 
 // Scroll to top
