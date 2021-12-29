@@ -6,6 +6,9 @@ const openMenu = document.querySelector('.openMenu');
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
+mainMenu.style.top = '-100vh';
+mainMenu.style.display = 'flex';
+
 function show() {
   mainMenu.style.display = 'flex';
   mainMenu.style.top = '0';
