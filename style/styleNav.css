@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* overscroll-behavior: none; */
+  /*edge overscroll*/
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+
+  /*edge overscroll*/
+  height: 100%;
+  overflow: auto;
+}
+
+footer i,
+nav i {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+  padding: 11px 0;
+}
+nav .mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+}
+nav .mainMenu li a:hover {
+  background: goldenrod;
+  transition: all ease 0.6s;
+}
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px 20px 0 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+footer .icons i {
+  display: inline-block;
+  padding: 12px;
+  font-size: 2.4rem;
+}
+
+.fa-facebook:hover {
+  color: rgb(24, 119, 242);
+}
+.fa-twitter:hover {
+  color: rgb(29, 155, 240);
+}
+.fa-instagram:hover {
+  color: rgb(247, 119, 55);
+}
+.fa-youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+nav .logo {
+  padding: 14px 0;
+  float: left;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/***REPSONSYWNY ŚRODEK***/
+
+main {
+  /*kolumna main zajmuje 70% bloku okalającego*/
+  width: 70%;
+  /*element dąży do lewej strony bloku sąsiedniego jeśli się nie mieści zostanie
+    wyświetlony pod spodem*/
+  float: left;
+  /* background-color: burlywood; */
+}
+.post {
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin: 20px 0 20px 0;
+}
+.post:last-child {
+  border: none;
+}
+.post-text {
+  margin: 20px 20px 0 20px;
+}
+.post-title {
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+.wrapper {
+  margin: 60px 0 60px 0;
+}
+
+figure {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin: 0 30px 0 0;
+}
+figure img {
+  display: block;
+  float: none;
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+}
+/*newsletter*/
+input {
+  display: block;
+  /* margin: 0 auto; */
+  width: 100%;
+}
+
+label {
+  /**/
+}
+
+.field-wrapper {
+  margin-bottom: 0.6em;
+}
+.newsletter {
+  margin-bottom: 3rem;
+}
+.newsletter-title {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.newsletter-form {
+  width: 50%;
+  margin: 0 auto;
+}
+aside {
+  /*kolumna aside zajmuje 30% bloku okalającego*/
+  width: 30%;
+  /*element dąży do lewej strony bloku sąsiedniego jeśli się nie mieści zostanie
+  wyświetlony pod spodem*/
+  float: left;
+  background-color: #999999;
+  height: max-content;
+}
+
+footer {
+  /*resetuje ustawienia float. stopka zostanie wyświetlona w nowej lini*/
+  clear: both;
+  /* background-color: lightcoral; */
+  height: 5vh;
+}
+/*Jeśli ekran ma rozszielczość większą niż 1000px zastosuj te style*/
+@media (max-width: 800px) {
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: goldenrod;
+    font-size: 1.6rem;
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  footer .icons i {
+    display: none;
+    padding: 12px;
+  }
+  address {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  figure {
+    display: block;
+    float: none !important;
+    margin: auto auto 20px auto !important;
+    text-align: center;
+    width: 100% !important;
+    height: auto;
+  }
+}
+@media all and (max-width: 1000px) {
+  aside {
+    clear: both;
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
+
+/*TODO*/
+
+footer {
+  min-width: 100%;
+  background-color: #151515;
+  text-align: center;
+  padding-top: 15px;
+}
+footer div {
+  background-color: #151515;
+  color: #fff;
+  padding: 5px;
+}
+footer address {
+  background-color: #151515;
+}
+footer address .icons i {
+  display: inline-block;
+  margin: 0 12px 0 12px;
+}
+footer address ul li {
+  flex-grow: 1;
+}
+
+/*top arrow*/
+.scroll-top {
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff20;
+  backdrop-filter: blur(12px);
+  opacity: 0.7;
+  position: fixed;
+  bottom: 10px;
+  right: 3%;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+  /* hover effect default */
+  transform: scale(0.9);
+  transition: 0.3s ease-in-out transform;
+  /* for centering the icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-top:hover {
+  transform: scale(1);
+}
+.pusty {
+  width: 100%;
+  height: 100vh;
+}
