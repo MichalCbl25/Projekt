@@ -6,15 +6,11 @@ const openMenu = document.querySelector('.openMenu');
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
-mainMenu.style.top = '-100vh';
-mainMenu.style.display = 'flex';
-
 function show() {
-  mainMenu.style.display = 'flex';
   mainMenu.style.top = '0';
 }
 function close() {
-  mainMenu.style.top = '-100vh'; //100% na mobilnych jest problem wiec device height
+  mainMenu.style.top = 'calc(-100vh - 100%)'; //100% na mobilnych jest problem wiec device height
 }
 
 // Scroll to top

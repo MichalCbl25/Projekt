@@ -178,7 +178,6 @@ footer {
   nav .mainMenu {
     height: 100vh;
     position: fixed;
-    top: 0;
     right: 0;
     left: 0;
     z-index: 10;
@@ -189,11 +188,16 @@ footer {
     transition: top 1s ease;
     display: none;
   }
+
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
     top: 20px;
     right: 20px;
+  }
+  nav .mainMenu {
+    display: flex;
+    top: calc(-100vh - 100%);
   }
   nav .openMenu {
     display: block;
@@ -201,7 +205,6 @@ footer {
   nav .mainMenu li a:hover {
     background: none;
     color: goldenrod;
-    font-size: 1.6rem;
   }
   .icons i {
     display: inline-block;
