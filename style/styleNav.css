@@ -138,10 +138,6 @@ input {
   width: 100%;
 }
 
-label {
-  /**/
-}
-
 .field-wrapper {
   margin-bottom: 0.6em;
 }
@@ -197,7 +193,8 @@ footer {
   }
   nav .mainMenu {
     display: flex;
-    top: calc(-100vh - 100%);
+    top: -500vh;
+    /*top: calc(-100vh - 100%);*/
   }
   nav .openMenu {
     display: block;

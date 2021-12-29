@@ -10,7 +10,8 @@ function show() {
   mainMenu.style.top = '0';
 }
 function close() {
-  mainMenu.style.top = 'calc(-100vh - 100%)'; //100% na mobilnych jest problem wiec device height
+  // mainMenu.style.top = 'calc(-100vh - 100%)'; //100% na mobilnych jest problem wiec device height
+  mainMenu.style.top = '-500vh';
 }
 
 // Scroll to top
