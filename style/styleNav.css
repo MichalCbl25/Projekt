@@ -33,12 +33,12 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav .mainMenu {
+nav .mainMenu ul {
   display: flex;
   list-style: none;
   padding: 11px 0;
 }
-nav .mainMenu li a {
+nav .mainMenu ul li a {
   display: inline-block;
   padding: 15px;
   text-decoration: none;
@@ -46,7 +46,7 @@ nav .mainMenu li a {
   color: #fff;
   font-size: 1.5rem;
 }
-nav .mainMenu li a:hover {
+nav .mainMenu ul li a:hover {
   background: goldenrod;
   transition: all ease 0.6s;
 }
@@ -219,10 +219,15 @@ footer {
     top: calc(-150vh - 100%);
     /*top: calc(-100vh - 100%);*/
   }
+  nav .mainMenu ul {
+    display: inline;
+    text-align: center;
+    padding: 0;
+  }
   nav .openMenu {
     display: block;
   }
-  nav .mainMenu li a:hover {
+  nav .mainMenu ul li a:hover {
     background: none;
     color: goldenrod;
   }
