@@ -6,6 +6,8 @@
 [css](https://michalcbl25.github.io/Projekt/style/styleNav.css)<br/>
 [js](https://michalcbl25.github.io/Projekt/script/menu.js)<br/>
 
+---
+
 ### index html
 
 ![Test](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Web_1.png)
@@ -13,6 +15,11 @@
 ![Test](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Web_2.png)
 
 <br />
+
+### Karate
+
+![Karate](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Karate.png)
+<br/>
 
 ---
 
@@ -28,6 +35,9 @@ Strona głowna dla wersji mobilnej
 
 newsletter dla wersji mobilnej
 ![Newsletter_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Newsletter_mobile.jpg)
+
+<br/>
+<br/>
 
 ---
 
