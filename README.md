@@ -8,7 +8,7 @@
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichalCbl25/Projekt&layout=compact" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichalCbl25&exclude_repo=https://github.com/MichalCbl25/htmlcssjs&layout=compact" />
 
 ### index html
 
