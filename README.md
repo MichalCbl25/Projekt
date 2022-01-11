@@ -8,7 +8,7 @@
 
 ---
 
-### index html
+### Strona głowna
 
 ![Test](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Web_1.png)
 
