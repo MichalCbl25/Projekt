@@ -4,4 +4,6 @@
 
 <br />
 
-### Wersja mobilna
+## Wersja mobilna
+
+dla wersji mobilnej
