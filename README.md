@@ -33,7 +33,7 @@ newsletter dla wersji mobilnej
 
 ## HTML validator
 
-![HTML Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/HTML_Val.png)
+![HTML Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Html_val.png)
 
 ## CSS Validator
 
