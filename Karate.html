@@ -124,7 +124,21 @@
       </article>
     </main>
     <aside>
-      <span>Sekcja poboczna </span>
+      <section class="newsletter">
+        <h3 class="newsletter-title">Zapisz się do newslettera</h3>
+        <form action="https://formsubmit.co/61f1320dbd0bc9ee73e29bf9fc5c0291" method="POST" class="newsletter-form">
+          <input type="hidden" name="_captcha" value="false" />
+          <div class="field-wrapper">
+            <label for="email-newsletter">Email: </label>
+            <input type="email" id="email-newsletter" name="email" placeholder="Podaj email" required />
+          </div>
+          <div class="field-wrapper">
+            <label for="name-newsletter">Imię: </label>
+            <input type="text" id="name-newsletter" name="name" placeholder="Podaj Imię" required />
+          </div>
+          <button type="submit" class="newsletter-button">Wyślij</button>
+        </form>
+      </section>
     </aside>
     <footer>
       <address>
