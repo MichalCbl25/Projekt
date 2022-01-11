@@ -20,6 +20,7 @@
 
 ![Karate](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Karate.png)
 <br/>
+<br/>
 
 ---
 
@@ -27,13 +28,13 @@
 
 dla wersji mobilnej
 
-pasek navigacji dla wersji mobilnej
+pasek navigacji
 ![Navbar_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Nav_mobile.jpg)
 
-Strona głowna dla wersji mobilnej
+Strona głowna
 ![Index_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Index_mobile.jpg)
 
-newsletter dla wersji mobilnej
+newsletter
 ![Newsletter_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Newsletter_mobile.jpg)
 
 <br/>
@@ -41,6 +42,10 @@ newsletter dla wersji mobilnej
 
 ---
 
+<br/>
+```diff
+@@ HTML VALIDATOR
+```
 ## HTML validator
 
 ![HTML Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Html_val.png)
