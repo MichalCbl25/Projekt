@@ -181,6 +181,7 @@ aside {
   /*element dąży do lewej strony bloku sąsiedniego jeśli się nie mieści zostanie
   wyświetlony pod spodem*/
   float: left;
+
   background-color: #9999992f;
   height: max-content;
 }
