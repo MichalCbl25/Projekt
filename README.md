@@ -43,9 +43,13 @@ newsletter
 ---
 
 <br/>
+
 ```diff
 @@ HTML VALIDATOR
 ```
+
+<span style="color: green"> Some green text </span>
+
 ## HTML validator
 
 ![HTML Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Html_val.png)
