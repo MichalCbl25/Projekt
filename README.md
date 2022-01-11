@@ -14,6 +14,8 @@
 
 <br />
 
+---
+
 ## Wersja mobilna
 
 dla wersji mobilnej
@@ -22,15 +24,17 @@ pasek navigacji dla wersji mobilnej
 ![Navbar_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Nav_mobile.jpg)
 
 Strona głowna dla wersji mobilnej
-![Index_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Index_mobile.png)
+![Index_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Index_mobile.jpg)
 
 newsletter dla wersji mobilnej
 ![Newsletter_mobile](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Newsletter_mobile.jpg)
 
+---
+
 ## HTML validator
 
-![HTML Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Html_val.png)
+![HTML Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/HTML_Val.png)
 
 ## CSS Validator
 
-![CSS Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/CSS_val.png)
+![CSS Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/CSS_Val.png)
