@@ -17,13 +17,18 @@
 ### Karate
 
 ![Karate](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Karate.png)
+
 <br/>
 
-![Kontakt](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Kontakt.png))
+### Kontakt
+
+![Kontakt](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Kontakt.png)
 
 <br />
 
-![O mnie](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/O_mnie.png))
+### O mnie
+
+![O mnie](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/O_mnie.png)
 
 ## <br/>
 
@@ -57,8 +62,10 @@ newsletter
 
 ![CSS Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/CSS_Val.png)
 
-## <br />
+---
 
+<br />
+<br/>
 <br />
 
  <img align="left" alt="MichalCbl25 stats" src="https://github-readme-stats.vercel.app/api?username=MichalCbl25&show_icons=true&hide_border=true" />
