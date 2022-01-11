@@ -8,7 +8,7 @@
 
 ---
 
- <img align="left" alt="MichalCbl25 stats" src="https://github-readme-stats.vercel.app/api?username=MichalCbl25&show_icons=true&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichalCbl25&layout=compact" />
 
 ### index html
 
@@ -51,3 +51,9 @@ newsletter
 ## CSS Validator
 
 ![CSS Validator](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/CSS_Val.png)
+
+## <br />
+
+<br />
+
+ <img align="left" alt="MichalCbl25 stats" src="https://github-readme-stats.vercel.app/api?username=MichalCbl25&show_icons=true&hide_border=true" />
