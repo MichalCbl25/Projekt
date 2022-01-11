@@ -8,11 +8,11 @@
 
 ---
 
+ <img align="left" alt="MichalCbl25 stats" src="https://github-readme-stats.vercel.app/api?username=MichalCbl25&show_icons=true&hide_border=true" />
+
 ### index html
 
 ![Test](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Web_1.png)
-
-![Test](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Web_2.png)
 
 <br />
 
@@ -43,12 +43,6 @@ newsletter
 ---
 
 <br/>
-
-```diff
-@@ HTML VALIDATOR
-```
-
-<span style="color: green"> Some green text </span>
 
 ## HTML validator
 
