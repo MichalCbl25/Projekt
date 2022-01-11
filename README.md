@@ -18,7 +18,14 @@
 
 ![Karate](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Karate.png)
 <br/>
-<br/>
+
+![Kontakt](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/Kontakt.png))
+
+<br />
+
+![O mnie](https://github.com/MichalCbl25/Projekt/blob/master/screenshot/O_mnie.png))
+
+## <br/>
 
 ---
 
